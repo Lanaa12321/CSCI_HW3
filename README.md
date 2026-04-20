@@ -1,5 +1,16 @@
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/51843299-6048ebd5-3b0a-4077-b9ba-5e08207b7628?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D51843299-6048ebd5-3b0a-4077-b9ba-5e08207b7628%26entityType%3Dcollection%26workspaceId%3D562a6207-6d67-444d-9647-f830508ef7b8#?env%5BCSCI_3916_HW3%5D=W3sia2V5IjoiVG9rZW4iLCJ2YWx1ZSI6IiIsImVuYWJsZWQiOnRydWUsInR5cGUiOiJkZWZhdWx0Iiwic2Vzc2lvblZhbHVlIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBaQ0k2SWpZNVpUVmhaVFkxTXpsa05UQmpaVGcxWVRZMFpHSTNNaUlzSW5WelpYSnVZVzFsSWpvaWJHRnVZVEV3TURBaUxDSnBZWFFpT2pFM056WTJOakF3Tnprc0ltVjQuLi4iLCJjb21wbGV0ZVNlc3Npb25WYWx1ZSI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpwWkNJNklqWTVaVFZoWlRZMU16bGtOVEJqWlRnMVlUWTBaR0kzTWlJc0luVnpaWEp1WVcxbElqb2liR0Z1WVRFd01EQWlMQ0pwWVhRaU9qRTNOelkyTmpBd056a3NJbVY0Y0NJNk1UYzNOalkyTXpZM09YMC5IanQyQlJvcjFlNVJ0SkJPWWFEd0RDdkV4NEVQSXFqN0g2RENQSDdRY0JZIiwic2Vzc2lvbkluZGV4IjowfSx7ImtleSI6IkJhc2VfVVJMIiwidmFsdWUiOiIiLCJlbmFibGVkIjp0cnVlLCJ0eXBlIjoiZGVmYXVsdCIsInNlc3Npb25WYWx1ZSI6Imh0dHBzOi8vY3NjaTM5MTYtaHczLTEta2FiOC5vbnJlbmRlci5jb20iLCJjb21wbGV0ZVNlc3Npb25WYWx1ZSI6Imh0dHBzOi8vY3NjaTM5MTYtaHczLTEta2FiOC5vbnJlbmRlci5jb20iLCJzZXNzaW9uSW5kZXgiOjF9XQ==)
+
+
+
+
 # Assignment Three
 ## Purpose
+
+
+
+
+
+
 The purpose of this assignment is to get comfortable working with a NoSQL database (MongoDB). 
 
 For this assignment you will create a Users collection to store users for your signup and signin methods.  You will pass Username, Name and Password as part of signup.  To get a token you will call SingIn with username and password only.  The token should include the Name and UserName (not password)

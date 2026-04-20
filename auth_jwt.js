@@ -5,12 +5,13 @@ var User = require('./Users');
 
 var opts = {};
 opts.jwtFromRequest = ExtractJwt.fromAuthHeaderWithScheme("jwt");
+console.log('auth secret =', process.env.SECRET_KEY);
 opts.secretOrKey = process.env.SECRET_KEY;
 
 passport.use(new JwtStrategy(opts, async (jwt_payload, done) => {
     try {
         const user = await User.findById(jwt_payload.id);
-        
+
         if (user) {
             return done(null, user);
         } else {
@@ -21,5 +22,5 @@ passport.use(new JwtStrategy(opts, async (jwt_payload, done) => {
     }
 }));
 
-exports.isAuthenticated = passport.authenticate('jwt', { session : false });
-exports.secret = opts.secretOrKey ;
+exports.isAuthenticated = passport.authenticate('jwt', { session: false });
+exports.secret = opts.secretOrKey;
